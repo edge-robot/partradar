@@ -21,6 +21,8 @@ Use the [Podman release build and push commands](install.md) to bake the owner s
 plow-agents profile --show
 ```
 
+Published `v2` image (2026-09-29): `ghcr.io/edge-robot/partradar@sha256:0fd033b803e2f1884046418be124b0add53c7856ed7bbfd82bbb943f68e58d4b`. An anonymous registry manifest request returned this digest.
+
 The profile shows the owner UID. Provide the following to the AI Worth Using / Plow Discord admin for initial one-click admission:
 
 ```text
@@ -50,9 +52,9 @@ For hackathon verification, the human owner posts the public repository URL, **f
 - [x] `AGENT_ID=partradar` is configured locally
 - [x] Agent Index installation is registered and live OpenClaw usage is detected
 - [x] The inherited reporter is present; no second reporter was added
-- [ ] Release fixes are committed and pushed
-- [ ] Docker-format public GHCR release image is pushed
-- [ ] Immutable image digest is recorded and anonymous pull is verified
+- [x] Release fixes are committed and pushed
+- [x] Docker-format public GHCR release image is pushed
+- [x] Immutable image digest is recorded and anonymous pull is verified
 - [ ] Public release image is deployed and live-tested
 - [x] Listing name, blurb, repository, and install URL were submitted with `image set`
 - [x] README and install guide are available in the repository
