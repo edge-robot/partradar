@@ -70,7 +70,7 @@ class PartRadarTests(unittest.TestCase):
 
     def test_boundary_and_packaging(self):
         dockerfile = (ROOT / "Dockerfile").read_text()
-        self.assertIn("@sha256:8696c41d", dockerfile)
+        self.assertIn("@sha256:f1e7c421", dockerfile)
         self.assertIn("/opt/plow/prompt/AGENTS.md", dockerfile)
         self.assertIn("/opt/plow/skills/", dockerfile)
         self.assertTrue((ROOT / "skills" / "engineering-work-order" / "SKILL.md").is_file())

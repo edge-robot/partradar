@@ -36,7 +36,7 @@ flowchart TD
     B --> G[Inherited Agent Index reporter]
 ```
 
-PartRadar is a **Build on Plow** variant image. Its Dockerfile inherits the maintained [Plow OpenClaw base](https://github.com/plow-pbc/plow-openclaw-agent), pinned at upstream commit `e0217de7c4fc5d8b7655aa4a1aaac8ed9f79cdf7` and image digest `sha256:8696c41d26305fa28e825fb72531fade37e9dd2ad52df2fdb395f68681523243`. It replaces only the agent prompt, adds three skills, and includes a small deterministic artifact renderer. OpenClaw remains the runtime. Plow provides phone conversations, its channel/plugin, gateway, state volume, model access, and Agent Index registration and five-minute usage reporting. No second reporter runs here. See [architecture](docs/architecture.md).
+PartRadar is a **Build on Plow** variant image. Its Dockerfile inherits the maintained [Plow OpenClaw base](https://github.com/plow-pbc/plow-openclaw-agent), pinned at upstream commit `771198a9609dcef54d44843e7da5329c17fa51b4` and image digest `sha256:f1e7c421b97a80f1bd17015f96daceb965f350a241f7edc7e4d856a0e3a6f8f5`. It replaces only the agent prompt, adds three skills, and includes a small deterministic artifact renderer. OpenClaw remains the runtime. Plow provides phone conversations, its channel/plugin, gateway, state volume, model access, and Agent Index registration and five-minute usage reporting. No second reporter runs here. See [architecture](docs/architecture.md).
 
 ## Try it locally
 
