@@ -57,6 +57,6 @@ This fixture demonstrates artifact rendering from inspected sources. It is not a
 
 ## Publication
 
-PartRadar is MIT licensed. The target repository is [edge-robot/partradar](https://github.com/edge-robot/partradar). The [publishing checklist](docs/publishing.md) tracks its public availability, the public digest-pinned image, Index metadata and usage, verification, one-click admission, demo video, and real screenshot. The final agent slug, video, and image still need to be supplied by the owner.
+PartRadar is MIT licensed. The target repository is [edge-robot/partradar](https://github.com/edge-robot/partradar). The [publishing checklist](docs/publishing.md) tracks its public availability, the public digest-pinned image, Index metadata and usage, verification, one-click admission, demo video, and real screenshot. The demo video is published; the public release image and real screenshot are still pending.
 
 Upstream references: [AI Worth Using publication guide](https://aiworthusing.com/agent-index/publish), [Plow OpenClaw base](https://github.com/plow-pbc/plow-openclaw-agent), [`plow-agents`](https://github.com/plow-pbc/plow-agents), and [Agent Index client](https://github.com/plow-pbc/agent-index-client).

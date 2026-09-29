@@ -57,7 +57,7 @@ For hackathon verification, the human owner posts the public repository URL, **f
 - [x] Listing name, blurb, repository, and install URL were submitted with `image set`
 - [x] README and install guide are available in the repository
 - [ ] Real screenshot is captured and registered
-- [ ] Demo video is recorded, published, and registered
+- [x] [Demo video](https://youtu.be/vHG0AgGHOfI) is recorded, published, and registered
 - [ ] One-click admission is requested and enabled by an admin
 - [ ] Verification is requested with repository URL, final commit, and Index ID
 - [ ] Verified status is confirmed
